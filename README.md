@@ -43,3 +43,21 @@ You can deploy the ComplimentBot to a cloud platform like Heroku or AWS to make 
 ## Author
 
 Tensornetics LLC and OpenAI ChatGPT
+
+```
+compliment_bot/
+    |
+    ├── app/
+    |   ├── __init__.py
+    |   ├── compliment_generator.py
+    |   ├── routes.py
+    |   └── templates/
+    |       └── index.html
+    |
+    ├── tests/
+    |   └── test_compliment_generator.py
+    |
+    ├── config.py
+    ├── requirements.txt
+    └── run.py
+```
